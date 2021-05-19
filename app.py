@@ -1,13 +1,11 @@
 from flask import Flask, json, jsonify, request
 from pymongo import MongoClient
-from dotenv import load_dotenv
 import os
 
 # Load .env variables
-load_dotenv()
-db_name = os.getenv('DB_NAME')
-db_username = os.getenv('DB_USERNAME')
-db_password = os.getenv('DB_PASSWORD')
+db_name = os.environ.get('DB_NAME')
+db_username = os.environ.get('DB_USERNAME')
+db_password = os.environ.get('DB_PASSWORD')
 
 # Initialize Flask server
 app = Flask(__name__)
