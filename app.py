@@ -26,7 +26,7 @@ def parseObjectId(obj):
 
 @app.route('/', methods=['GET'])
 def homepage():
-    return f'Welcome to the Mindflex API, {db_username}'
+    return f'Welcome to the Mindflex API'
 
 @app.route('/api/questions', methods=['GET'])
 def get_questions():
