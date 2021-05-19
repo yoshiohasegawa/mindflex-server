@@ -7,8 +7,6 @@ db_name = os.environ.get('DB_NAME')
 db_username = os.environ.get('DB_USERNAME')
 db_password = os.environ.get('DB_PASSWORD')
 
-print(db_name)
-
 # Initialize Flask server
 app = Flask(__name__)
 
@@ -28,7 +26,7 @@ def parseObjectId(obj):
 
 @app.route('/', methods=['GET'])
 def homepage():
-    return 'Welcome to the Mindflex API'
+    return f'Welcome to the Mindflex API, {db_username}'
 
 @app.route('/api/questions', methods=['GET'])
 def get_questions():
