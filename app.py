@@ -24,10 +24,12 @@ def parseObjectId(obj):
     return obj
 
 
+# Homepage, simply return a welcome message
 @app.route('/', methods=['GET'])
 def homepage():
     return f'Welcome to the Mindflex API'
 
+# Questions GET route
 @app.route('/api/questions', methods=['GET'])
 def get_questions():
     questions_data = list(questions.find())
