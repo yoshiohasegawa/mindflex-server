@@ -1,3 +1,3 @@
 # Mindflex Backend Server
 
-This project is a simple Flask server that supports the [Mindflex](https://github.com/yoshiohasegawa/mindflex) iOS mobile application.
+This project is a simple Flask server, that hosts API endpoints and routes that support the [Mindflex](https://github.com/yoshiohasegawa/mindflex) iOS mobile application.
