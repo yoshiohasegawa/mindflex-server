@@ -32,12 +32,20 @@ A Python-Flask server that contains API endpoints and routes that support [Mindf
 
 ## Endpoints and Objects
 ### *Root* 
-- `[GET] /`
-    * response: *Welcome to the Mindflex API*
+`[GET] /`   
+- returns the string: *'Welcome to the Mindflex API'*
 
 ### *Questions*
-- `[GET] /api/questions`
-    * response: ```{_id: "1991fakeid1991", question: "47 > 7", answer: true}```
+`[GET] /api/questions`
+- returns an array of Question objects
+#### Example Question Object
+```js
+{
+    _id:      "1991fakeid1991",
+    question: "47 > 7",
+    answer:   true
+}
+```
 
 # Coming Soon
 ### User Accounts
