@@ -23,7 +23,7 @@
 4. [Contact](#contact)
 
 # About
-This project is a Flask server, that contains API endpoints and routes that supports [Mindflex](https://github.com/yoshiohasegawa/mindflex), an iOS game application. The database is a noSQL MongoDB database.
+A Python-Flask server that contains API endpoints and routes that support [Mindflex](https://github.com/yoshiohasegawa/mindflex), an iOS game application. The database is a noSQL MongoDB database.
 
 ## Tech Stack
 - [Python](https://www.python.org/)
