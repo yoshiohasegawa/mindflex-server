@@ -20,7 +20,7 @@
     * [User Accounts](#user-accounts)
     * [Game Modes](#game-modes)
     * [Sound Effects](#sound-effects)
-4. [Contact](#contact)
+3. [Contact](#contact)
 
 # About
 A Python-Flask server that contains API endpoints and routes that support [Mindflex](https://github.com/yoshiohasegawa/mindflex), an iOS game application. The database is a noSQL MongoDB database.
