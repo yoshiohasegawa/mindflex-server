@@ -3,7 +3,7 @@
 <!-- HEADER -->
 <p align="center">
 <!-- Logo -->
-    <img src="./Assets/Logo1024x1024.png" alt="Mindflex Logo" width="300px" >
+    <img src="./assets/Logo1024x1024.png" alt="Mindflex Logo" width="300px" >
 <!-- Tagline -->
     <p align="center">
         <em>Flex your mind</em>
